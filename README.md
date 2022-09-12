@@ -6,7 +6,8 @@
 
 ![preview-2](https://user-images.githubusercontent.com/109727844/189513317-29f581fd-bff4-4047-bcb2-8eb331458316.jpg)
 
-![preview-3](https://user-images.githubusercontent.com/109727844/189513349-ee135282-3725-40a6-a28c-ff09ab25344f.jpg)
+![preview3](https://user-images.githubusercontent.com/109727844/189748313-642b54a3-ba3b-4703-b086-3ad412aedf7b.jpg)
+
 
 
 -  [Demo Project](https://pouria-farahani-developer.github.io/PicGame/)

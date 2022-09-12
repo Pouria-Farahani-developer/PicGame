@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/stylesheet.css">
+    <title>Pic Game</title>
+</head> 
+<body>
+    <main> 
+        <section class="player player-0 player-active">
+            <h2 class="name" id="name-0">player 1</h2>
+            <p class="score" id="score-0">43</p>
+            <div class="current">
+                <p class="current-lable">current</p>
+                <p class="current-score" id="current-0">24</p>
+            </div>
+
+        </section>
+        <section class="player player-1">
+            <h2 class="name" id="name-1">player 2</h2>
+            <p class="score" id="score-1">43</p>
+            <div class="current">
+                <p class="current-lable">current</p>
+                <p class="current-score" id="current-1">24</p>
+            </div>
+        </section>
+        <img src="asset/img/dice-1.png" alt="playing dic" class="dice">
+        <button class="btn btn-new">🔄 New game</button>
+        <button class="btn btn-roll">🎲 Roll dice</button>
+        <button class="btn btn-hold">📥 Hold</button>
+        <button class="btn btn-help">how to play</button>
+    </main>
+    <div id="modal">
+        <h1>Rules of the game</h1>
+        <p>1. let's start game by click on newgame button</p>
+        <p>2. By clicking on the button Roll dice, the dice of the program will start to roll</p>
+        <p>3. every time you roll the dice, the sum of your dice is saved in Current, and if the clear point dice comes, it clears all your points.
+        </p>
+        <p>4. After each dice roll, you can save your points by click on hold button and give your opponent's turn
+        </p>
+        <p>5. Any user whose total score reaches 100 or more is the winner of this game
+        </p>
+
+        <p>Note: You can skip your turn and give it to your opponent by pressing the hold button</p>
+        <button class="btn-close">close</button>
+    </div>
+    
+</body>
+<script src="asset/script.js"></script>
+</html>     

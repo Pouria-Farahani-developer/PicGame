@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    color: #333;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    position: relative;
+    width: 65rem;
+    height: 37rem;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(200px);
+    border-radius: 9px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+    filter: blur(0px);
+    transition: 2s;
+}
+
+
+
+
+.player {
+    width: 50%;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Element */
+.name {
+    position: relative;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.score {
+    font-size: 4rem;
+    /* font-weight: 300px; */
+    font-weight: normal;
+    color: #c7365f;
+    margin-bottom: auto;
+}
+
+.player-active {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.player-active .name {
+    color: teal;
+    font-weight: bolder;
+}
+
+.player-active .score {
+    font-weight: bolder;
+}
+
+.current {
+    width: 65%;
+    background-color: #c7365f;
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 9px;
+    color: #fff;
+    opacity: 0.95;
+    transition: all 0.75s;
+}
+
+.current-lable {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #ddd;
+    margin: 1rem 0rem;
+}
+
+.current-score {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* absoulot position */
+#modal {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: 60%;
+    height: 0;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    color: #333;
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    transition: 2s;
+}
+
+#modal h1 {
+    text-align: center;
+    color: orangered;
+    border-bottom: 3px solid black;
+    line-height: 50px;
+}
+
+#modal p {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 50px;
+    padding-left: 2%;
+}
+
+#modal p:nth-of-type(6) {
+    color: red;
+}
+
+
+#modal .btn-close {
+    width: 200px;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    border: none;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.btn {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    color: #444;
+    padding: 0.7rem 2.5rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn::first-letter {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.btn-new {
+    top: 2rem;
+}
+
+.btn-roll {
+    top: 22.5rem;
+}
+
+.btn-hold {
+    top: 27rem;
+}
+
+
+
+.btn-help::first-letter {
+    margin-right: 0px;
+    font-size: 1.2rem;
+}
+
+.btn-help {
+    /* top: 35.6rem; */
+    top: 32rem;
+
+}
+
+.dice {
+    position: absolute;
+    top: 28%;
+    height: 7.5rem;
+    left: calc(50% - 60px);
+}
+
+.player-winner {
+    background-color: #005c17;
+}
+
+.player-winner .name {
+    font-weight: 700;
+    color: #fff;
+}
+
+.player-loser {
+    background-color: red;
+}
+
+.player-loser .name {
+    font-weight: 700;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+
+
+.open {
+    height: 70% !important;
+    transition: 2s;
+}

@@ -1,6 +1,6 @@
-# PicGame
+# Pic Game
 
-**HEY,What are you waiting for,start the game ??**
+🎰 **HEY,What are you waiting for,start the game ??**
 
 ![preview1](https://user-images.githubusercontent.com/109727844/189748966-08b6126a-03ce-4d30-aed9-b3fd25f76fa9.jpg)
 

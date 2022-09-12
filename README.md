@@ -9,7 +9,7 @@
 ![preview-3](https://user-images.githubusercontent.com/109727844/189513349-ee135282-3725-40a6-a28c-ff09ab25344f.jpg)
 
 
--  [Demo Project](https://pouria-farahani-developer.github.io/Pic-Game/)
+-  [Demo Project](https://pouria-farahani-developer.github.io/PicGame/)
 
 -  Developed by pouria farahani
 

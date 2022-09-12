@@ -2,7 +2,7 @@
 
 **HEY,What are you waiting for,start the game ??**
 
-![preview-og-1](https://user-images.githubusercontent.com/109727844/189513174-46fecf6b-329e-4594-a95f-241ef616ac6c.jpg)
+![preview1](https://user-images.githubusercontent.com/109727844/189748966-08b6126a-03ce-4d30-aed9-b3fd25f76fa9.jpg)
 
 ![preview-2](https://user-images.githubusercontent.com/109727844/189513317-29f581fd-bff4-4047-bcb2-8eb331458316.jpg)
 

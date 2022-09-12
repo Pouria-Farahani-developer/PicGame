@@ -10,14 +10,16 @@
 
 
 
--  [Demo Project](https://pouria-farahani-developer.github.io/PicGame/)
+- 🔗 [Demo Project](https://pouria-farahani-developer.github.io/PicGame/)
 
--  Developed by pouria farahani
+- 👨‍💻 Developed by pouria farahani
 
--  Created - 2022-09-11
+- 📆 Created - 2022-09-11
 
--  Technologies Used - Html , Css , js
+- 🤖 Technologies Used - Html , Css , js
 
--  Role - Frontend
+- 🕵🏻‍♀️ Role - Frontend
 
--  How to reach me : with my [instagram](https://www.instagram.com/pouria_farahani_developer) and [linkedin](https://www.linkedin.com/in/pouria-farahani-developer)
+- 📫 How to reach me : with my [instagram](https://www.instagram.com/pouria_farahani_developer) and [linkedin](https://www.linkedin.com/in/pouria-farahani-developer)
+
+

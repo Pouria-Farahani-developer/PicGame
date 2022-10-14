@@ -2,6 +2,9 @@
 
 🎰 **HEY,What are you waiting for,start the game ??**
 
+![image psd (1)](https://user-images.githubusercontent.com/109727844/195925735-144d8608-22cc-4304-a785-0e34a497cde0.jpg)
+
+
 ![preview1](https://user-images.githubusercontent.com/109727844/189748966-08b6126a-03ce-4d30-aed9-b3fd25f76fa9.jpg)
 
 ![preview2](https://user-images.githubusercontent.com/109727844/189749596-4b1fe2b8-b083-4ded-a2cc-0908c2f85212.jpg)
